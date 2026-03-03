@@ -57,6 +57,7 @@ export type RoutePath =
   | `/3dmgame/news/:category?`
   | `/3kns/:filters?/:order?`
   | `/423down/:category{.+}?`
+  | `/4chan/:board/catalog/:routeParams?`
   | `/4gamers/`
   | `/4gamers/category/:category`
   | `/4gamers/tag/:tag`
@@ -90,7 +91,7 @@ export type RoutePath =
   | `/81/81rc/:category{.+}?`
   | `/8264/list/:id?`
   | `/8kcos/`
-  | `/8kcos/cat/:cat{.+}?`
+  | `/8kcos/cat/:cat?`
   | `/8kcos/tag/:tag`
   | `/8world*`
   | `/91porn/:lang?`
@@ -1541,6 +1542,7 @@ export type RoutePath =
   | `/ithome/tag/:name`
   | `/ithome/tw/feeds/:category`
   | `/ithome/zt/:id?`
+  | `/iwara/ranking/:type?/:sort?/:rating?`
   | `/iwara/subscriptions`
   | `/iwara/users/:username/:type?`
   | `/ixigua/user/video/:uid/:disableEmbed?`
